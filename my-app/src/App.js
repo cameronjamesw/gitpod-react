@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import RenderingList from './components/RenderingList';
 
 function App() {
   return (
     <div className="App">
-      <MethodsAsPropsParent/>
+      <RenderingList/>
     </div>
   );
 }
