@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-import RenderingList from './components/RenderingList';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
     <div className="App">
-      <RenderingList/>
+      <ControlledForm/>
     </div>
   );
 }
